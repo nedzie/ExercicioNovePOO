@@ -19,7 +19,7 @@ namespace ExercicioNove.ConsoleApp
             {
                 somaTotalNotas += 1 / notas[i];
             }
-            mediaHarmonica = 4 / somaTotalNotas;
+            mediaHarmonica = quantiaDenotas / somaTotalNotas;
             return mediaHarmonica;
         }
     }
